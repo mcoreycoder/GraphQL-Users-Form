@@ -11,4 +11,10 @@
     background-color: darkgrey;
 }
 
+.deletebutton {
+    background-color: red;
+}
 
+.updatebutton {
+    background-color: chartreuse;
+}

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Mutation } from "react-apollo";
 import gql from "graphql-tag";
-// import Button from '@material-ui/core/Button';
 
 
 export default class extends Component {
@@ -27,7 +26,7 @@ export default class extends Component {
                       })
                       window.location.reload(true)
                     }}>
-                        <input type="submit" value="Delete"/>
+                        <input class="deletebutton" type="submit" value="Delete"/>
                     </form>
                 )}
             </Mutation>

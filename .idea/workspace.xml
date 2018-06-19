@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a295bc4c-c5ea-455f-8ffb-54d0b3e67f2e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/apollo-practice/src/Routing/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/Routing/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apollo-practice/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apollo-practice/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/apollo-practice/src/index.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,8 +34,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-practice/src/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="62" selection-start-line="62" selection-end-line="63" selection-end-column="65" />
+            <state relative-caret-position="473">
+              <caret line="43" lean-forward="true" selection-start-line="6" selection-end-line="43" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -83,8 +84,8 @@
       <file leaf-file-name="UpdateUser.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-555">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="300">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -92,14 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeleteUser.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DeleteUser.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="45">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prisma.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/prisma-practice/prisma.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -127,19 +137,19 @@
         <option value="$PROJECT_DIR$/apollo-practice/src/CreateUser.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/UserView.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/UpdateUser.js" />
-        <option value="$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/Pages/UserView.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/PageViews/UserView.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/PageViews/DeleteUser.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/PageViews/UpdateUser.js" />
-        <option value="$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/Users/CreateUser.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/Users/UserView.js" />
-        <option value="$PROJECT_DIR$/apollo-practice/src/index.css" />
         <option value="$PROJECT_DIR$/apollo-practice/src/PageViews/CreateUser.js" />
-        <option value="$PROJECT_DIR$/apollo-practice/src/Routing/Nav.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/index.js" />
         <option value="$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js" />
+        <option value="$PROJECT_DIR$/apollo-practice/src/Routing/Nav.js" />
+        <option value="$PROJECT_DIR$/apollo-practice/src/index.css" />
+        <option value="$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js" />
+        <option value="$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js" />
       </list>
     </option>
   </component>
@@ -218,6 +228,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Routing" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GraphQL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraphQL" type="462c0819:PsiDirectoryNode" />
+              <item name="prisma-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,17 +275,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528841394332</updated>
-      <workItem from="1528841397008" duration="48533000" />
+      <workItem from="1528841397008" duration="53245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48533000" />
+    <option name="totallyTimeSpent" value="53245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1459" y="23" width="1539" height="983" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23350923" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23350923" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -279,7 +295,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Quokka" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.2728351" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.2728351" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -303,26 +319,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/prisma-practice/prisma.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apollo-practice/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/apollo-practice/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prisma-practice/datamodel.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apollo-practice/src/Pages/UserView.js">
@@ -337,33 +339,6 @@
     <entry file="file://$PROJECT_DIR$/apollo-practice/src/PageViews/UserView.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-555">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-practice/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apollo-practice/src/PageViews/CreateUser.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -371,6 +346,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/UserView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="43" lean-forward="true" selection-start-line="6" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -387,13 +382,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/UserView.js">
+    <entry file="file://$PROJECT_DIR$/apollo-practice/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="76" lean-forward="true" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prisma-practice/datamodel.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/UpdateUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prisma-practice/prisma.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -407,12 +423,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Routing/Routes.js">
+    <entry file="file://$PROJECT_DIR$/apollo-practice/src/Users/DeleteUser.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="62" selection-start-line="62" selection-end-line="63" selection-end-column="65" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

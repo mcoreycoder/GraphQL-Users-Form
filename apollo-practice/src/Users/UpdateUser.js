@@ -13,7 +13,8 @@ export default class extends Component {
         email: this.props.email,
         password: this.props.password,
         isUpdating: false,
-        buttonText: "Update"
+        buttonText: "Update",
+        buttonColor: "updatebutton"
     }
     updateUserMutation = gql`
         mutation updateUser($id: ID!, $name: String!, $email: String!, $password: String!) {
@@ -54,15 +55,15 @@ export default class extends Component {
                                     password: this.state.password,
                                 }
                             })
-                            this.setState({buttonText: "Update"})
+                            this.setState({buttonText: "Update" , buttonColor: "updatebutton"})
                             window.location.reload(true)
                         } else {
-                            this.setState({buttonText: "Submit"})
+                            this.setState({buttonText: "Submit" , buttonColor: "submitbutton"})
                         }
                         this.setState({isUpdating: !this.state.isUpdating})
                     }}>
                         {this.state.isUpdating ? update : null}
-                        <input type="submit" value={this.state.buttonText}/>
+                        <input class={this.state.buttonColor} type="submit" value={this.state.buttonText}/>
 
                     </form>
                 )}
@@ -70,3 +71,5 @@ export default class extends Component {
         )
     }
 }
+
+
