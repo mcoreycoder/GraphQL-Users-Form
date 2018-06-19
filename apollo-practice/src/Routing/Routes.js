@@ -4,6 +4,10 @@ import {
     Route,
     Link
 } from 'react-router-dom'
+import CreateUser from "../Users/CreateUser"
+import UserView from '../Users/UserView';
+
+
 
 
 const Home = () => (
@@ -12,25 +16,27 @@ const Home = () => (
     </div>
 )
 
-const UserView = () => (
+const ViewUser = () => (
     <div>
-        <h2>UserView</h2>
+        <h2>User View</h2>
+        <UserView/>
     </div>
 )
 
-const CreateUser = () => (
+const UserCreate = () => (
     <div>
         <h2>Create User</h2>
+        <CreateUser/>
     </div>
 )
 
-const UpdateUser = () => (
+const UserUpdate = () => (
     <div>
         <h2>Update User</h2>
     </div>
 )
 
-const DeleteUser = () => (
+const UserDelete = () => (
     <div>
         <h2>Delete User</h2>
     </div>
@@ -43,19 +49,19 @@ const Nav = () => (
         <div>
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/userview">User View</Link></li>
-                <li><Link to="/createuser">Create User</Link></li>
-                <li><Link to="/deleteuser">Delete User</Link></li>
-                <li><Link to="/updateuser">Update User</Link></li>
+                <li><Link to="/viewuser">User View</Link></li>
+                <li><Link to="/usercreate">Create User</Link></li>
+                <li><Link to="/userupdate">Update User</Link></li>
+                <li><Link to="/userdelete">Delete User</Link></li>
             </ul>
 
             <hr/>
 
             <Route exact path="/" component={Home}/>
-            <Route path="/userview" component={UserView}/>
-            <Route path="/createuser" component={CreateUser}/>
-            <Route path="/deleteuser" component={DeleteUser}/>
-            <Route path="/updateuser" component={UpdateUser}/>
+            <Route path="/viewuser" component={ViewUser}/>
+            <Route path="/usercreate" component={UserCreate}/>
+            <Route path="/userupdate" component={UserUpdate}/>
+            <Route path="/userdelete" component={UserDelete}/>
         </div>
     </Router>
 )
