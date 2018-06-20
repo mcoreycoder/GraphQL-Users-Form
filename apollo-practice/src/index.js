@@ -15,9 +15,13 @@ const client = new ApolloClient({
 
 const App = () => (
     <ApolloProvider client={client}>
-        <div class="background">
+        <div className="background">
             {/*<div>*/}
-                {/*<h2>User Sign Up</h2>*/}
+                {/*<h1>*/}
+                    {/*🤪*/}
+                    {/*🤬*/}
+                    {/*💩*/}
+                {/*</h1>*/}
             {/*</div>*/}
             <Nav />
             {/*<CreateUser/>*/}
