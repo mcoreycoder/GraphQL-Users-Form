@@ -26,7 +26,7 @@ export default class extends Component {
                     if (error) return <p>Error :(</p>;
 
                     return data.users.map(({id, name, email, password}) => (
-                        <Paper key={id} class="paper">
+                        <Paper key={id} >
                             <h2>{`Name: ${name}`}</h2>
                             <p>{`EMAIL: ${email}`}</p>
                             <p>{`PASSWORD: ${password}`}</p>
@@ -46,37 +46,4 @@ export default class extends Component {
 }
 
 
-// /////////////////////
-//     Users = () => (
-//         <Query
-//             query={gql`
-//         {
-//
-//         }
-//     `}
-//         >
-//             {({ loading, error, data }) => {
-//                 if (loading) return <p>Loading...</p>;
-//                 if (error) return <p>Error :(</p>;
-//
-//                 return data.users.map(({ id, name, email }) => (
-//                     <div key={id}>
-//                         <p>{`${name}: ${email}`}🙈🙉🙊</p>
-//                     </div>
-//                 ));
-//             }}
-//         </Query>
-//     );
-// }
-//
-// // const App = () => (
-// //     <ApolloProvider client={client}>
-// //         <div>
-// //             <h1>🙈🙉🙊</h1>
-// //             <h2>🎉🚀My first Apollo app🚀🎉</h2>
-// //         </div>
-// //         <Users/>
-// //     </ApolloProvider>
-// // );
-// //
-// // export App
+///////////////////////////////////////////// code above works

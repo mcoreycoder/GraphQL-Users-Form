@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom'
 import CreateUser from "../Users/CreateUser"
 import UserView from '../Users/UserView';
+import ZoomView from '../Users/ZoomView';
 
 
 
@@ -42,6 +43,12 @@ const UserDelete = () => (
     </div>
 )
 
+const ViewZoom = () => (
+    <div>
+        <h2>Zoom View</h2>
+        <ZoomView/>
+    </div>
+)
 
 
 const Nav = () => (
@@ -53,6 +60,9 @@ const Nav = () => (
                 <li><Link to="/usercreate">Create User</Link></li>
                 <li><Link to="/userupdate">Update User</Link></li>
                 <li><Link to="/userdelete">Delete User</Link></li>
+
+                <li><Link to="/zoomview">Zoom View</Link></li>
+
             </ul>
 
             <hr/>
@@ -62,6 +72,10 @@ const Nav = () => (
             <Route path="/usercreate" component={UserCreate}/>
             <Route path="/userupdate" component={UserUpdate}/>
             <Route path="/userdelete" component={UserDelete}/>
+
+            <Route path="/zoomview" component={ViewZoom}/>
+
+
         </div>
     </Router>
 )
